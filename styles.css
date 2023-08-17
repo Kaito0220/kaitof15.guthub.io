@@ -1,0 +1,67 @@
+/* 背景色を変更 */
+body {
+  background-color: #ffffff;
+  color: #0768fa;
+  font-family: "メイリオ", sans-serif;
+}
+
+/* ヘッダーのテキスト色と余白を変更 */
+header {
+  background-color: #0768fa;
+  color: #ffffff;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* メインコンテンツのフォントサイズを変更 */
+main {
+  font-size: 16px;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* ナビゲーションメニューの背景色とリンクのスタイルを変更 */
+.tabs {
+  display: flex;
+  justify-content: space-around; /* タブを均等に配置 */
+  padding: 0; /* 余白を削除 */
+  list-style: none; /* リストのマーカーを削除 */
+  background-color: #222222; /* タブの背景色を変更 */
+  margin: 0; /* マージンを削除 */
+}
+
+.tabs li {
+  flex-grow: 1; /* タブを均等に広げる */
+  text-align: center; /* テキストを中央揃え */
+  padding: 10px 0; /* タブの余白を追加 */
+}
+
+.tabs li a {
+  color: white;
+  text-decoration: none;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* 丸型にするための値 */
+}
+
+
+
+/* フッターの背景色とテキスト色を変更 */
+footer {
+  background-color: #d1cc30;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.tab-content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
